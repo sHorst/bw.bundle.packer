@@ -21,7 +21,10 @@ downloads = {
 
 pkg_pip = {
     'mako': {},
-    'setuptools': {},
+    # this needs to be installed, but pip does not state, that it is so use unless instead
+    'setuptools': {
+        'unless': 'pip list | grep setuptools',
+    },
 }
 
 actions = {
