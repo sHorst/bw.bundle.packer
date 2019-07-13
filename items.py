@@ -1,5 +1,5 @@
-PACKER_VER = '1.2.4'
-PACKER_SUM = '258d1baa23498932baede9b40f2eca4ac363b86b32487b36f48f5102630e9fbb'
+PACKER_VER = '1.4.2'
+PACKER_SUM = '2fcbd1662ac76dc4dec381bdc7b5e6316d5b9d48e0774a32fe6ef9ec19f47213'
 
 
 directories = {
